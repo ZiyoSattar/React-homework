@@ -37,8 +37,9 @@ header {
   letter-spacing: -0.107692px;
   color: #9597A5;
   text-decoration: none;
+  cursor: pointer;
 }
-
+/* TEST */
 .header__link:hover {
   border-bottom: 4px solid #2FC78F;
 }
@@ -59,7 +60,9 @@ header {
   cursor: pointer;
 }
 
-
+.header__invite:hover {
+  background-color: #2FC78F;
+}
 
 .header__invite:active {
   opacity: 0.4;

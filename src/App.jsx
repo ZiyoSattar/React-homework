@@ -6,6 +6,14 @@ import "./components/Articles.css";
 import "./components/Footer.css";
 import myImage from './images/logo.svg';
 import myImageFooter from './images/footer.svg';
+import Phones from './images/phones.png';
+import Banking from './images/banking.png';
+import Budget from './images/budget.png';
+import Onboard from './images/onboard.png';
+import ApiPng from './images/api.png';
+import Money from './images/money.png';
+
+
 
 
 function App() {
@@ -51,11 +59,11 @@ function App() {
             <a href="#sdfs" className="digital__invite">Request Invite</a>
           </div>
 
-          <img className="digital__phones" src="./img/phones.png" alt="phones" width="728" height="899">
+          <img className="digital__phones" src={Phones} alt="phones" width="728" height="899">
 
           </img>
 
-          <img className="digital__phones-2" src="./img/phones.png" alt="phones">
+          <img className="digital__phones-2" src={Phones} alt="phones">
 
           </img>
         </div>
@@ -77,7 +85,7 @@ function App() {
 
           <ul className="hero__list">
             <li className="hero__item">
-              <img className="hero__item-img" src="./img/banking.png" alt="banking" width="72" height="72">
+              <img className="hero__item-img" src={Banking} alt="banking" width="72" height="72">
 
               </img>
               <p className="hero__item-p">Online Banking</p>
@@ -87,7 +95,7 @@ function App() {
             </li>
 
             <li className="hero__item">
-              <img className="hero__item-img" src="./img/budget.png" alt="budgeting" width="72" height="72">
+              <img className="hero__item-img" src={Budget} alt="budgeting" width="72" height="72">
 
               </img>
               <p className="hero__item-p">Simple Budgeting</p>
@@ -97,7 +105,7 @@ function App() {
             </li>
 
             <li className="hero__item">
-              <img className="hero__item-img" src="./img/onboard.png" alt="onboard" width="72" height="72">
+              <img className="hero__item-img" src={Onboard} alt="onboard" width="72" height="72">
 
               </img>
               <p className="hero__item-p">Fast Onboarding</p>
@@ -107,7 +115,7 @@ function App() {
             </li>
 
             <li className="hero__item">
-              <img className="hero__item-img" src="./img/api.png" alt="api" width="72" height="72">
+              <img className="hero__item-img" src={ApiPng} alt="api" width="72" height="72">
 
               </img>
               <p className="hero__item-p">Open API</p>
@@ -128,7 +136,7 @@ function App() {
 
           <ul className="articles__list">
             <li className="articles__item">
-              <img className="articles__img" src="./img/money.png" alt="money" >
+              <img className="articles__img" src={Money} alt="money" >
 
               </img>
 
@@ -145,7 +153,7 @@ function App() {
             </li>
 
             <li className="articles__item">
-              <img className="articles__img" src="./img/rest.png" alt="money" >
+              <img className="articles__img" src={Money} alt="money" >
 
               </img>
 
@@ -161,7 +169,7 @@ function App() {
             </li>
 
             <li className="articles__item">
-              <img className="articles__img" src="./img/plane.png" alt="money" >
+              <img className="articles__img" src={Money} alt="money" >
 
               </img>
 
@@ -177,7 +185,7 @@ function App() {
             </li>
 
             <li className="articles__item">
-              <img className="articles__img" src="./img/hap.png" alt="money" >
+              <img className="articles__img" src={Money} alt="money" >
 
               </img>
 
