@@ -23,6 +23,8 @@
 }
 
 .hero__text-div {
+  margin-right: auto;
+  margin-left: auto;
   max-width: 635px;
   width: 100%;
   margin-bottom: 72px;

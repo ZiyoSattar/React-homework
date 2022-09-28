@@ -17,6 +17,7 @@
 .digital__text {
   max-width: 447px;
   width: 100%;
+  text-align: left;
   margin: 0;
 }
 

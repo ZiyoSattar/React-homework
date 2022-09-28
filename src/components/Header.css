@@ -59,6 +59,8 @@ header {
   cursor: pointer;
 }
 
+
+
 .header__invite:active {
   opacity: 0.4;
   border-radius: 22px;
